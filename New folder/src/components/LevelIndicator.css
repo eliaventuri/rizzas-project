@@ -1,0 +1,27 @@
+/* components/LevelIndicator.css */
+.level-indicator-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.level-indicator {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Fredoka One", cursive, sans-serif;
+  font-size: 24px;
+  color: #333;
+  margin: 0 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.level-indicator.active {
+  background-color: #ff6347;
+  color: #fff;
+  transform: scale(1.2);
+}

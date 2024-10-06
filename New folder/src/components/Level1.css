@@ -1,0 +1,116 @@
+/* components/Level1.css */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+.level1-container {
+  background-color: #f0e68c; /* Colore di sfondo giocoso */
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.level1-title {
+  font-family: "Fredoka One", cursive, sans-serif; /* Font giocoso */
+  color: #ff6347; /* Colore vivace */
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+  margin: 0 auto;
+}
+
+.card.flipped .card-front {
+  transform: rotateY(0deg);
+}
+
+.card.flipped .card-back {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.card-front {
+  background-color: #fff;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-front img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+
+.card-back {
+  background-color: #ff6969;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  transform: rotateY(0deg);
+}
+
+.level1-button {
+  background-color: #ff6e6e; /* Colore vivace */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.level1-button:hover {
+  background-color: #ff4c4c; /* Colore più scuro al passaggio del mouse */
+}
+
+.level1-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+.grid-cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.grid-cell img {
+  max-width: 100%;
+  max-height: 100%;
+}

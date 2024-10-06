@@ -1,0 +1,44 @@
+/* components/MobileWarning.css */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+.mobile-warning-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.mobile-warning-message {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  animation: popUp 1s ease-in-out;
+}
+
+.mobile-warning-message h2 {
+  font-family: "Fredoka One", cursive, sans-serif;
+  color: #ff6347;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.mobile-warning-message p {
+  font-family: "Fredoka One", cursive, sans-serif;
+  color: #333;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+@keyframes popUp {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

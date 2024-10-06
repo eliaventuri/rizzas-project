@@ -1,0 +1,54 @@
+/* components/FinalScreen.css */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+.final-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+  animation: backgroundFade 3s ease-in-out infinite alternate;
+}
+
+.congratulations-message {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  animation: popUp 1s ease-in-out;
+}
+
+.congratulations-message h2 {
+  font-family: "Fredoka One", cursive, sans-serif;
+  color: #ff6347;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.congratulations-message p {
+  font-family: "Fredoka One", cursive, sans-serif;
+  color: #333;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+@keyframes backgroundFade {
+  from {
+    background-color: #f0f8ff;
+  }
+  to {
+    background-color: #ffebcd;
+  }
+}
+
+@keyframes popUp {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
