@@ -10,12 +10,12 @@ function Level2({ onComplete }) {
     const interval = setInterval(() => {
       const newBall = {
         id: Date.now(),
-        top: Math.random() * 80 + 10 + "%", // Posizione casuale dall'alto
-        left: Math.random() * 80 + 10 + "%", // Posizione casuale da sinistra
+        top: Math.random() * 80 + 10 + "%",
+        left: Math.random() * 80 + 10 + "%",
       };
       setBall(newBall);
-      setTimeout(() => setBall(null), 2000); // Il gomitolo scompare dopo 2 secondi
-    }, 3000); // Un gomitolo appare ogni 3 secondi
+      setTimeout(() => setBall(null), 2000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
@@ -35,8 +35,8 @@ function Level2({ onComplete }) {
 
   return (
     <div className="level2-container">
-      <h2 className="level2-title">Gioco di reazione a tema uncinetto</h2>
-      <div className="score">Punteggio: {score}</div>
+      <h2 className="level2-title">Level 2!</h2>
+      <div className="score">Balls caught: {score}</div>
       {ball && (
         <div
           key={ball.id}

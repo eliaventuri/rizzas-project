@@ -63,7 +63,7 @@ function Level1({ onComplete }) {
 
   return (
     <div className="level1-container">
-      <h2 className="level1-title">Memory Game</h2>
+      <h2 className="level1-title">Level 1!</h2>
       <div className="cards-container">
         {cards.map((card, index) => (
           <div

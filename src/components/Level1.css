@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
 .level1-container {
-  background-color: #f0e68c; /* Colore di sfondo giocoso */
+  background-color: #f0e68c;
   padding: 20px;
   margin: 20px auto;
   border-radius: 10px;
@@ -12,8 +12,8 @@
 }
 
 .level1-title {
-  font-family: "Fredoka One", cursive, sans-serif; /* Font giocoso */
-  color: #ff6347; /* Colore vivace */
+  font-family: "Fredoka One", cursive, sans-serif;
+  color: #ff6347;
   margin-bottom: 20px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .level1-button {
-  background-color: #ff6e6e; /* Colore vivace */
+  background-color: #ff6e6e;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -85,7 +85,7 @@
 }
 
 .level1-button:hover {
-  background-color: #ff4c4c; /* Colore più scuro al passaggio del mouse */
+  background-color: #ff4c4c;
 }
 
 .level1-container {

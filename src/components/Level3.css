@@ -15,8 +15,8 @@
 }
 
 .maze-cell {
-  width: 50px; /* Aumentato da 40px a 60px */
-  height: 50px; /* Aumentato da 40px a 60px */
+  width: 50px;
+  height: 50px;
   border: 1px solid #000;
   display: flex;
   align-items: center;

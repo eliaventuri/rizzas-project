@@ -9,12 +9,12 @@
   width: 70vw;
   margin: 0 auto;
   position: relative;
-  cursor: url("../../public/images/cat-paw-cursor.png"), auto; /* Cursore a forma di zampa di gatto */
+  cursor: url("../../public/images/cat-paw-cursor.png"), auto;
 }
 
 .level2-title {
-  font-family: "Fredoka One", cursive, sans-serif; /* Font giocoso */
-  color: #ff6347; /* Colore vivace */
+  font-family: "Fredoka One", cursive, sans-serif;
+  color: #ff6347;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -29,11 +29,11 @@
 }
 
 .ball {
-  width: 98px; /* 40% più grande di 70px */
-  height: 98px; /* 40% più grande di 70px */
-  position: absolute; /* Assicuriamoci che il gomitolo sia posizionato assolutamente */
-  animation: drop 2s ease-in-out, disappear 2s ease-in-out 2s forwards; /* Aggiunta animazione di scomparsa */
-  z-index: 10; /* Aggiunto z-index per garantire la visibilità */
+  width: 98px;
+  height: 98px;
+  position: absolute;
+  animation: drop 2s ease-in-out, disappear 2s ease-in-out 2s forwards;
+  z-index: 10;
 }
 
 .ball img {
