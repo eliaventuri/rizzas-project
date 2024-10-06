@@ -44,7 +44,7 @@ function Level3({ onComplete }) {
 
   return (
     <div className="level3-container">
-      <h2>Gioco di puzzle o labirinto</h2>
+      <h2>Level 3!</h2>
       <div className="maze">
         {maze.map((row, rowIndex) => (
           <div key={rowIndex} className="maze-row">
