@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a71995b.css",
+    "main.js": "/static/js/main.cd68708b.js",
+    "static/js/453.c52c5fb8.chunk.js": "/static/js/453.c52c5fb8.chunk.js",
+    "static/media/crochet-background.jpg": "/static/media/crochet-background.6883945fdc7706845d29.jpg",
+    "service-worker.js": "/service-worker.js",
+    "index.html": "/index.html",
+    "main.6a71995b.css.map": "/static/css/main.6a71995b.css.map",
+    "main.cd68708b.js.map": "/static/js/main.cd68708b.js.map",
+    "453.c52c5fb8.chunk.js.map": "/static/js/453.c52c5fb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a71995b.css",
+    "static/js/main.cd68708b.js"
+  ]
+}
