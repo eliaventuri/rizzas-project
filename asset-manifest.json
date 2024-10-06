@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/rizzas-project/static/css/main.3fc0c78a.css",
+    "main.css": "/rizzas-project/static/css/main.52b4bad8.css",
     "main.js": "/rizzas-project/static/js/main.4892be60.js",
     "static/js/453.c52c5fb8.chunk.js": "/rizzas-project/static/js/453.c52c5fb8.chunk.js",
     "static/media/crochet-background.jpg": "/rizzas-project/static/media/crochet-background.6883945fdc7706845d29.jpg",
     "static/media/yarn-ball.png": "/rizzas-project/static/media/yarn-ball.e84b7fa722f24cfe00b9.png",
     "service-worker.js": "/rizzas-project/service-worker.js",
     "index.html": "/rizzas-project/index.html",
-    "main.3fc0c78a.css.map": "/rizzas-project/static/css/main.3fc0c78a.css.map",
+    "main.52b4bad8.css.map": "/rizzas-project/static/css/main.52b4bad8.css.map",
     "main.4892be60.js.map": "/rizzas-project/static/js/main.4892be60.js.map",
     "453.c52c5fb8.chunk.js.map": "/rizzas-project/static/js/453.c52c5fb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fc0c78a.css",
+    "static/css/main.52b4bad8.css",
     "static/js/main.4892be60.js"
   ]
 }
